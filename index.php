@@ -9,43 +9,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="custom.css">
 
-  <title>Hello, world!</title>
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/2adaa6ac33.js" crossorigin="anonymous"></script>
+  <title>OSI </title>
 </head>
 <body>
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#galery">Galery <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#harga">Harga</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown link
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- end navbar -->
-
+  
   <!-- carosel -->
-  <div id="carouselExampleIndicators" class="carousel slide col mt-5" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide col mt-1" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -54,7 +25,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img class="d-block w-100" src="img/osi1.jpg" alt="First slide">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-sm-block">
           <h5>OSI</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -66,7 +37,7 @@
       </div>
       <div class="carousel-item">
         <img class="d-block w-100" src="img/osi2.jpg" alt="Second slide">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-sm-block">
           <h5>OSI</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -78,7 +49,7 @@
       </div>
       <div class="carousel-item">
         <img class="d-block w-100" src="img/osi3.jpg" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-sm-block">
           <h5>OSI</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -99,6 +70,30 @@
     </a>
   </div>
   <!-- carosel -->
+<!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#">OSI</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#galery">Galery <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#harga">Harga</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#jadwal">Jadwal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- end navbar -->
 
   <!-- jadwal -->
   <!-- jadwal -->
@@ -109,12 +104,24 @@
     <h1 class="text-center scrol">Galery</h1>
     <div class="row col-md-12">
       <?php 
-      for ($i=0; $i <= 12; $i++) { 
+      for ($i=0; $i <= 13; $i++) { 
         ?>
-        <div class="card text-center ml-auto" style="width: 18rem;">
+        <div class="card ml-auto mt-4 rounded mx-auto d-block" style="width: 18rem;">
           <img class="card-img-top" src="img/foto1.jpg" alt="Card image cap">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <table class="m-auto">
+              <tr>
+                <td colspan="2" class="text-center"><a href="https://www.instagram.com/iron.meibarata/">Iron</a></td>
+              </tr>
+              <tr>
+                <td>MUA</td>
+                <td>: <a href="https://www.instagram.com/mtrianjasmoro/">cup cup</a></td>
+              </tr>
+              <tr>
+                <td>Tanggal</td>
+                <td>: 12 Oktober 2021</td>
+              </tr>
+            </table>
           </div>
         </div>
       <?php } ?>
@@ -142,6 +149,31 @@
   </div>
 </section>
 <!-- harga -->
+
+<!-- jadwal -->
+<section id="jadwal">
+  <div class="container">
+    <h1 class="text-center scrol">Jadwal</h1>
+  </div>
+</section>
+<!-- jadwal -->
+<!-- contact -->
+<section id="contact">  
+    <div class="container mt-5">
+      <h1 class="text-center scrol">Contact</h1>
+        <div class="card" style="width:100%">
+    <div class="card-body ">
+      <h4 class="card-title text-center">Iron</h4>
+      <p class="card-text p-1 mb-4 h4 "><a href="https://www.instagram.com/iron.meibarata/" class="rounded bg-light p-2"><i class="fab fa-instagram ">&nbsp;Iron mei barata</i></a></p>
+
+      <p class="card-text p-1 mb-4 h4"><a href="https://wa.me/081913451575" class="rounded bg-light p-2"><i class="fab fa-whatsapp text-success">&nbsp;081 91345 1575</i></a></p>
+    </div>
+    <img class="card-img-bottom" src="img/5.jpg" alt="Card image" style="width:100%">
+  </div>
+</div>
+    </div>
+</section>
+<!-- contact -->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
