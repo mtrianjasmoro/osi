@@ -13,3 +13,50 @@
 li.nav-item  {
 	margin-right: 100px;
 }
+
+.bg-light{
+	background-color: #050814!important;
+}
+
+.card-header{
+	background-color:#85aac5!important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+
+	color: #024f94!important;
+}
+
+.bg-custom-body{
+	background-color: #fafafa!important;
+}
+
+.bg-card{
+	background-color: #f1d9c1!important;
+}
+
+.garis-solid {
+  display: flex;
+  flex-direction: row;
+}
+.garis-solid:before, .garis-solid:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+.garis-solid:before {
+  margin-right: 5px
+}
+.garis-solid:after {
+  margin-left: 5px
+}
+
+footer{
+	color: white;
+	padding:4px;
+}
+
+.foto-galery:hover{
+	box-shadow: 4px 4px grey;
+}

@@ -1,0 +1,78 @@
+
+body {
+	font-family: 'Open Sans', 
+	sans-serif; font-size: 15px; font-weight: 400; color: #fff; line-height: 30px; text-align: center; 
+	background-image: url('img/osi1.jpg');
+	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+}
+
+a { color: #fff; border-bottom: 1px dashed #fff; text-decoration: none; transition: all .3s; }
+a:hover, a:focus { color: #fff; border: 0; text-decoration: none; }
+
+h1 { font-size: 26px; font-weight: 300; color: #fff; line-height: 46px; font-style: italic; }
+
+::-moz-selection { background: #8542a0; color: #fff; text-shadow: none; }
+::selection { background: #8542a0; color: #fff; text-shadow: none; }
+
+
+.form-custom { padding: 20px 0; }
+
+.form-custom p { color: #fff; color: rgba(255, 255, 255, 0.8); }
+.form-custom p.description { margin-bottom: 20px; }
+.form-custom p.copyright { margin-top: 40px; }
+
+.form-custom .form-group { text-align: left; }
+
+.form-custom input[type="text"],
+.form-custom input[type="password"] {
+	background: #fff; border: 2px solid #fff; 
+	font-family: 'Open Sans', sans-serif; font-size: 15px; font-weight: 400; color: #888; 
+	box-shadow: none;
+}
+.form-custom input[type="text"]:focus,
+.form-custom input[type="password"]:focus { outline: 0; background: #fff; border: 2px solid #a365bc; box-shadow: none; }
+
+.form-custom input[type="text"]::-moz-placeholder,
+.form-custom input[type="password"]::-moz-placeholder { color: #bbb; font-style: italic; }
+
+.form-custom input[type="text"]:-ms-input-placeholder,
+.form-custom input[type="password"]:-ms-input-placeholder { color: #bbb; font-style: italic; }
+
+.form-custom input[type="text"]::-webkit-input-placeholder,
+.form-custom input[type="password"]::-webkit-input-placeholder { color: #bbb; font-style: italic; }
+
+.form-custom button.btn-customized {
+	margin-top: 1rem;
+	padding: .75rem 1.5rem; 
+	border: 0; 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400; color: #fff; 
+	box-shadow: none;
+}
+
+.form-custom button.btn-customized:hover {
+	outline: 0;border: 0; color: #fff; box-shadow: none;
+}
+
+.login{	
+	background: #a365bc;
+}
+
+.login:hover{
+	background:#6d3e80;
+}
+
+.cancel{
+	background: #002bff;
+}
+
+.cancel:hover{
+	background: #11206d;
+}
+
+.bg-custom{
+	background-color: #00000054!important;
+	border-radius: 10px;
+}
